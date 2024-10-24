@@ -11,7 +11,7 @@ p = GPIO.PWM(BUZZER, 261)
 p.start(0)
 
 
-freq = [261, 294, 330, 349]  # SW1, SW2, SW3, SW4에 해당하는 주파수
+freq = [261, 294, 330, 349] 
 
 switch_pins = [5, 6, 13, 19]
 
