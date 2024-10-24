@@ -11,7 +11,7 @@ p = GPIO.PWM(BUZZER, 261)
 p.start(0)
 
 
-freq = [261, 294, 330, 349] 
+freq = [261, 294, 330, 349]  
 
 switch_pins = [5, 6, 13, 19]
 
